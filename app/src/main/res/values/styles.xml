@@ -1,0 +1,8 @@
+<resources>
+    <style name="TradePasswordBottomSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:background">@drawable/shape_roundrect_solid_ffffff_top_12</item>
+    </style>
+</resources>

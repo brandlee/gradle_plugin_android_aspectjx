@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             setOnClickListener(object : OnClickListener {
                 override fun onClick(v: View?) {
                     Toast.makeText(this@MainActivity, this@apply.text, Toast.LENGTH_LONG).show()
+                    testLogin()
                 }
             })
         }
@@ -38,5 +39,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun toast() {
         // 通过aop织入
+    }
+
+    @RequireLogin
+    @RequireTradePassword
+    private fun testLogin() {
+        Toast.makeText(this@MainActivity, "测试一下Login切面", Toast.LENGTH_LONG).show()
     }
 }

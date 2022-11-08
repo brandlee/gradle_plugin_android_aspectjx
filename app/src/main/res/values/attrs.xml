@@ -1,0 +1,18 @@
+<resources>
+    <!--交易密码验证弹窗-->
+    <declare-styleable name="TradePasswordInputView">
+        <attr name="pivBorderColor" format="color" />
+        <attr name="pivBorderWidth" format="dimension" />
+        <attr name="pivBorderLength" format="dimension" />
+        <attr name="pivBorderRadius" format="dimension" />
+        <attr name="pivPasswordColor" format="color" />
+        <attr name="pivPasswordWidth" format="dimension" />
+        <attr name="pivPasswordLength" format="integer" />
+        <attr name="pivUnderLineColor" format="color" />
+        <attr name="pivUnderLineHighlightColor" format="color" />
+        <attr name="pivUnderLineWidth" format="dimension" />
+        <attr name="pivUnderLineHeight" format="dimension" />
+        <attr name="encryption" format="boolean" />
+    </declare-styleable>
+    <!--交易密码验证弹窗-->
+</resources>
